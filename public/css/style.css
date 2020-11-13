@@ -5,15 +5,61 @@
 }--*/
 
 .Texto{
-    position: relative;
+    position: center;
     left: 1230px;
   }
   
   .Texto1{
-    position: relative;
+    position: left;
     left: 960px;
   }
-  
+  .Texto2{
+    color: #FFFFFF;
+    position: center;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+  }
+  .Texto3{
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+  }
+  .card-body{
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: "Arial Black", Gadget, sans-serif;
+  }
+  .card-frc{
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 34%;
+  }
+.card-title{
+  text-align: center;
+}
+/* Container holding the image and the text */
+.container2 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+    position: center;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 40px;
+}
+
+
   .sliderImgs{
       width: 800px;
       height: 450px;
