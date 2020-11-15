@@ -37,23 +37,35 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div style="position: absolute;top: 97%; left: 0%;"><img src="css\imagenes/lineas.png" width="140%" height="140%" ></div>
+    <div class="collapse navbar-collapse" style="position: absolute;top: 97%; left: 0%;"><img src="css\imagenes/lineas.png" width="5000px" height="1000px" class="img-fluid" alt="Responsive image" height="auto"></div>
     <a class="navbar-brand" href="D:\Lenovo\Documents\Página web Aztech\templates\public/plantilla.html"><img src="css\imagenes/logaz.png" width="20%" height="20%" class="d-inline-block align-top"></a>
     <form class="form-inline">
         <input class="font-weight-bold form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar">
         <button class="font-weight-bold btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
       </form>
     <div class="collapse navbar-collapse" id="navbarToggler">
-        <div class="navbar-nav mr-auto mt-2 mt-lg-0 text-center">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">  
             <a class="font-weight-bold nav-item nav-link" href="D:\Lenovo\Documents\Página web Aztech\templates\public/plantilla.html">Nosotros<span class="sr-only">(current)</span></a>
+            <hr color="blue" style="height: 5px"> 
+                </li>
+                <li class="nav-item">
+            <div class="container collapse navbar-collapse" id="navbarToggler"></div>
             <a class="font-weight-bold nav-item nav-link" href="#">Recursos</a>
+            <hr color="yellow" style="height: 5px"> 
+                </li>
+                <li class="nav-item">
             <a class="font-weight-bold nav-item nav-link" href="#">Eventos</a>
+            <hr color="red" style="height: 5px"> 
+                </li>
+                <li class="nav-item">
             <a class="font-weight-bold nav-item nav-link active" href="D:\Lenovo\Documents\Página web Aztech\templates\public/proyectos.html">Proyectos</a>
+            <hr color="green" style="height: 5px">
+                </li>
+                <li class="nav-item">
             <a class="font-weight-bold nav-item nav-link" href="#">Media</a>
-        </div>
-        <div class="d-flex flex-row justify-content-center my-2 my-lg-0">
-            <a href="#" class="font-weight-bold btn btn-outline-light">Inicia sesión</button></a>
-            <a href="#" class="font-weight-bold btn btn-outline-light">Crea tu cuenta</button></a>
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
