@@ -3,7 +3,38 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }--*/
-
+@font-face {
+  font-family: GothamPro;
+  src: url(GothamPro-BoldItalic.eot);
+  src: url(GothamPro-BoldItalic.woff2) format("woff2"),url(GothamPro-BoldItalic.woff) format("woff"),url(GothamPro-BoldItalic.ttf) format("truetype"),url(GothamPro-BoldItalic.svg#GothamPro-BoldItalic) format("svg"),url(GothamPro-BoldItalic.eot?#iefix) format("embedded-opentype");
+  font-weight: 600;
+  font-style: italic;
+}
+.navbar-brand,
+.navbar-nav a {
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+}
+.card-block{
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+    font-size: 18px;
+    text-align: center;
+}
+.card-title1{
+  font-family: "Gotham";
+  color: #000000;
+    font-size: 50px;
+    text-align: center;
+}
+.card-title{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+}
 .Texto{
     position: left;
     left: 1230px;
@@ -14,15 +45,16 @@
   }
   .Texto2{
     color: #FFFFFF;
+    font-size: 80px;
     position: center;
     text-align: center;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: "Gotham";
   }
   .Texto3{
     color: #FFFFFF;
     font-size: 30px;
     text-align: center;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: 'Montserrat', sans-serif;
   }
   .card-body{
     color: #FFFFFF;
