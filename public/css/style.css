@@ -10,6 +10,12 @@
   font-weight: 600;
   font-style: italic;
 }
+.aztek{
+  font-family: "Gotham";
+  color: #ffffff;
+  font-size: 100px;
+  text-align: center;
+}
 .navbar-brand,
 .navbar-nav a {
   font-family: 'Montserrat', sans-serif;
