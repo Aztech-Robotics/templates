@@ -482,7 +482,7 @@
         background-image: url(imagen/imagen\ cuadrada);
         background-size: cover;
     }
-  }
+  
   *{
     margin: 0;
     padding: 0;
@@ -568,3 +568,4 @@
 .cardnosotros{
   background: rgb(7, 187, 241);
 }
+
