@@ -106,7 +106,11 @@
     font-family: "Arial Black", Gadget, sans-serif;
     font-size: 40px;
 }
+.center{
+  position: relative;
 
+    text-align: center;
+}
 
   .sliderImgs{
       width: 800px;
