@@ -1,1 +1,1 @@
-# Templates para Aztech y BlueSwitch
+# Templates de Aztech
