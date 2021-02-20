@@ -89,45 +89,69 @@
       <li class="breadcrumb-item active text-light aria-current="page>BEARING MOUNTING BRACKET</li>
     </ol>
   </nav>
-  
 
-<div class="container">
   <div class="container">
-    <div class="row align-items-start">
-      <div class="col-sm-1">
-        <button class="botonimg"><img src="../img/1000x1000Pixel_mit_Gitter.png" width="60" height="60" class="right rounded"></button>
-        <br><br>
-        <img src="../img/1000x1000Pixel_mit_Gitter.png" width="60" height="60" class="right rounded">
-        <br><br>
-        <img src="../img/1000x1000Pixel_mit_Gitter.png" width="60" height="60" class="right rounded">
-        <br><br>
-        <img src="../img/1000x1000Pixel_mit_Gitter.png" width="60" height="60" class="right rounded">
-      </div>
-      
-      <div class="col-sm-5">
-        <img src="../img/1000x1000Pixel_mit_Gitter.png" width="400" height="400" class="right rounded " id="imgproduct">
-      </div>
-      
-    
-      <div class="col-sm-4">
-        <h3 class="text-light">1" BEARING MOUNTING BRACKET</h3>
-        <h11 style="color: rgb(102, 102, 102);">SKU: 123456789</h11>
-        <BR></BR>
-        <h5 class="text-light">$500.00 MXN</h5>
-        <br>
-        <div class="btn-group box bounce-7">
-          <button type="button" class="btn btn-danger">Action</button>
-          <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="sr-only">Toggle Dropdown</span>
-          </button>
+    <div class="row">
+      <div class="col">
+
+
+        <div class="container">
+          <div class="container">
+            <div class="row align-items-start">
+              <div class="col-sm1 thumb-img">
+                <div class="box active" onclick="changeImage(this)"><img src="../img/azlo.png" width="60" height="60" class="right rounded"></div>
+                <br>
+                <div class="box active" onclick="changeImage(this)"><img src="../img/1000x1000Pixel_mit_Gitter.png" width="60" height="60" class="right rounded"></div>
+                <br>
+                <div class="box active" onclick="changeImage(this)"><img src="../img/azlo.png" width="60" height="60" class="right rounded"></div>
+                <br>
+                <div class="box active" onclick="changeImage(this)"><img src="../img/1000x1000Pixel_mit_Gitter.png" width="60" height="60" class="right rounded"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
 
-    </div>
+      <div class="col">
+        
+<div class="col-sm-1">
+<div class="product">
+<img src="../img/1000x1000Pixel_mit_Gitter.png" width="450" height="450" class="pro-img" alt="product" />
 </div>
+</div>
+      </div>
+
+
+<div class="row">
+      <div class="col">
+        <div class="col-sm-4">
+          <h3 class="text-light">1" BEARING MOUNTING BRACKET</h3>
+          <h11 style="color: rgb(102, 102, 102);">SKU: 123456789</h11>
+          <BR></BR>
+          <h5 class="text-light">$500.00 MXN</h5>
+          <br>
+          <div class="btn-group box bounce-7">
+            <button type="button" class="btn btn-danger">Action</button>
+            <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span class="sr-only">Toggle Dropdown</span>
+            </button>
+        </div>
+  
+      </div>
+  </div>
+      </div>
+      
+
+    
+
+
+</div>
+
 </section>
 
 
-<br><br><br><br><br>
+<br><br><br><br>
 
 
 <section>
@@ -202,7 +226,18 @@
 </footer>
 
 
+<script>
+  const thumbs=document.querySelector(".thumb-img").children;
 
+      function changeImage(event){
+        document.querySelector(".pro-img").src=event.children[0].src
+        
+        for(let i=0; i<thumbs.length;i++){
+          thumbs[i].classList.remove("active");
+        }
+        event.classList.add("active");
+      }
+</script>   
 <!--Esto es necesario para bootstrap-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
